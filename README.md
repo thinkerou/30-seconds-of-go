@@ -1,5 +1,7 @@
 # 30 seconds of Go
 
+[![Build Status](https://api.travis-ci.org/thinkerou/30-seconds-of-go.svg)](https://travis-ci.org/thinkerou/30-seconds-of-go)
+
 Curated collection of useful Go snippets that you can understand in 30 seconds or less.
 
 > Inspired by [30 seconds of code](https://github.com/30-seconds/30-seconds-of-code), but there is no affiliation with that project.
