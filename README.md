@@ -73,7 +73,7 @@ Geerates an array, containing the Fibonacci sequence, up until the nth term.
 Calculates the greatest common divisor between two or more numbers/arrays.
 
 <details>
-<summay>Examples</summay>
+<summary>Examples</summary>
 
 ```go
 ```
