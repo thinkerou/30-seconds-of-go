@@ -4,6 +4,34 @@ Curated collection of useful Go snippets that you can understand in 30 seconds o
 
 ## Table of Contents
 
+### 🔌 Adapter
+
+<details>
+<summary>View contents</summary>
+
+</details>
+
+### 📚 Array
+
+<details>
+<summary>View contents</summary>
+
+</details>
+
+### ⏱️ Date
+
+<details>
+<summary>View contents</summary>
+
+</details>
+
+### 🎛️ Function
+
+<details>
+<summary>View contents</summary>
+
+</details>
+
 ### ➗ Math
 
 <details>
@@ -15,6 +43,34 @@ Curated collection of useful Go snippets that you can understand in 30 seconds o
 * [`gcd`](#gcd)
 * [`isEven`](#iseven)
 * [`isPrime`](#isprime)
+
+</details>
+
+### 🗃️ Object
+
+<details>
+<summary>View contents</summary>
+
+</details>
+
+### 📜 String
+
+<details>
+<summary>View contents</summary>
+
+</details>
+
+### 📃 Type
+
+<details>
+<summary>View contents</summary>
+
+</details>
+
+### 🔧 Utility
+
+<details>
+<summary>View contents</summary>
 
 </details>
 
