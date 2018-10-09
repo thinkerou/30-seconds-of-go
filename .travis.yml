@@ -3,9 +3,35 @@ language: go
 sudo: false
 
 go:
-  - 1.10.x
   - 1.11.x
   - master
 
 matrix:
   fast_finish: true
+  include:
+  - go: 1.11
+    env: GO111MODULE=on
+
+git:
+  depth: 10
+
+before_install:
+  - mkdir "${HOME}/go"; export GOPATH="${HOME}/go"
+
+install:
+  - go mod download
+  - export PATH="${GOPATH}/bin:${GOROOT}/bin;${PATH}"
+  - make tools
+
+go_import_path: github.com/thinkerou/30-seconds-of-go/snippets
+
+script:
+  - make vet
+  - make fmt-check
+  - make embedmd
+  - make misspell-check
+  - make test
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+
