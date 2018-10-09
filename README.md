@@ -1,6 +1,9 @@
 # 30 seconds of Go
 
 [![Build Status](https://api.travis-ci.org/thinkerou/30-seconds-of-go.svg)](https://travis-ci.org/thinkerou/30-seconds-of-go)
+[![codecov](https://codecov.io/gh/thinkerou/30-seconds-of-go/branch/master/graph/badge.svg)](https://codecov.io/gh/thinkerou/30-seconds-of-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/thinkerou/30-seconds-of-go)](https://goreportcard.com/report/github.com/thinkerou/30-seconds-of-go)
+[![GoDoc](https://godoc.org/github.com/thinkerou/30-seconds-of-go?status.svg)](https://godoc.org/github.com/thinkerou/30-seconds-of-go)
 
 Curated collection of useful Go snippets that you can understand in 30 seconds or less.
 
