@@ -9,6 +9,18 @@ Curated collection of useful Go snippets that you can understand in 30 seconds o
 
 > Inspired by [30 seconds of code](https://github.com/30-seconds/30-seconds-of-code), but there is no affiliation with that project.
 
+## Installation
+
+⚠️  **NOTICE:** A few of our snippets are not yet optimized for production (see disclaimers for individual snippet issues).
+
+To install this package, you need to install Go and setup your Go workspace on your computer. The simplest way to install the library is to run:
+
+> $ go get -u github.com/thinkerou/30-seconds-of-go
+
+## Prerequisites
+
+This requires Go 1.11 or later.
+
 ## Table of Contents
 
 ### 🔌 Adapter
