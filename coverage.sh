@@ -4,7 +4,7 @@ set -e
 
 echo "mode: count" > coverage.out
 
-for d in $(go list ./... | grep -E 'sinppets$'); do
+for d in $(go list ./... | grep -E 'snippets$'); do
 	go test -v -covermode=count -coverprofile=profile.out $d
 	if [ -f profile.out ]; then
 		cat profile.out | grep -v "mode:" >> coverage.out
