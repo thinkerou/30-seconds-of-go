@@ -21,7 +21,7 @@ $ go get -u github.com/thinkerou/30-seconds-of-go
 
 ## Prerequisites
 
-This requires Go 1.11 or later.
+This requires Go 1.12 or later.
 
 ## Table of Contents
 
