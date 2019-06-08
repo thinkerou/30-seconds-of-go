@@ -198,7 +198,7 @@ Checks whether a positive integer is the power of 2 using the and (`&`) operator
 
 ```
 func is PowerOf2(i uint) bool {
-	return i & (i -1)
+	return i & (i -1) == 0
 }
 ```
 
