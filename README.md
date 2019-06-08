@@ -163,10 +163,26 @@ Calculates the greatest common divisor between two or more numbers/arrays.
 
 Returns `true` if the given number is even, `false` otherwise.
 
+Checks whether a number is odd or even using the modulo (`%`) operator or and (`&`) operator. Returns `true` if the number is even, `false` if the number is odd.
+
+```
+func isEven(i int) bool {
+	return i % 2 == 0
+}
+
+func isEven(i int) bool {
+	return i & 1 == 0
+}
+```
+
 <details>
 <summary>Examples</summary>
 
-```go
+```
+isEven(-1) // false
+isEven(-2) // true
+isEven(3) // false
+isEven(4) // true
 ```
 
 </details>
