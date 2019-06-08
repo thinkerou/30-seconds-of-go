@@ -63,6 +63,7 @@ This requires Go 1.12 or later.
 * [`fibonacci`](#fibonacci)
 * [`gcd`](#gcd)
 * [`isEven`](#iseven)
+* [`isPowerOf2`](#ispowerof2)
 * [`isPrime`](#isprime)
 
 </details>
@@ -202,7 +203,7 @@ func is PowerOf2(i uint) bool {
 ```
 
 <details>
-<summay>Examples</summay>
+<summary>Examples</summary>
 
 ```
 isPowerOf2(1) // true
@@ -212,6 +213,8 @@ isPowerOf2(4) // true
 ```
 
 </details>
+
+<br>[⬆ Back to top](#table-of-contents)
 
 ### isPrime
 
