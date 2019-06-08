@@ -189,6 +189,30 @@ isEven(4) // true
 
 <br>[⬆ Back to top](#table-of-contents)
 
+### isPowerOf2
+
+Returns `true` is the given positive integer is the power of 2, `false` otherwise.
+
+Checks whether a positive integer is the power of 2 using the and (`&`) operator.
+
+```
+func is PowerOf2(i uint) bool {
+	return i & (i -1)
+}
+```
+
+<details>
+<summay>Examples</summay>
+
+```
+isPowerOf2(1) // true
+isPowerOf2(2) // true
+isPowerOf2(3) // false
+isPowerOf2(4) // true
+```
+
+</details>
+
 ### isPrime
 
 Checks if the provided integer is a prime number.
