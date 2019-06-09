@@ -220,10 +220,30 @@ isPowerOf2(4) // true
 
 Checks if the provided integer is a prime number.
 
+Check numbers from `2` to the square root of the given number. Return `false` if any of them divides the given number, else return `true`, unless the number is less than `2`.
+
+```
+func isPrime(n int) bool {
+	boundary := int (math.Floor(math.Sqrt(float64 (n))))
+	for i := 2;  i <= boundary; i++ {
+		if n % i == 0 {
+			return false
+		}
+	}
+	return n >= 2
+}
+```
+
 <details>
 <summary>Examples</summary>
 
-```go
+```
+isPrime(0) // false
+isPrime(1) // false
+isPrime(2) // true
+isPrime(3) // true
+isPrime(4) // false
+isPrime(11) // true
 ```
 
 </details>
